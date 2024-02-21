@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
   background(220);
-  let distance = dist(mouseX, mouseY);
+  let distance = dist(mouseX, mouseY, width/2, height/2);
   
   translate(width/2, height/2);
   rotate(angle);
